@@ -449,7 +449,7 @@ async def help_command(bot: Client, message: Message, cb=False):
             "1. Browse our website to find content.\n"
             "2. Click the <b>'Watch on Telegram'</b> buttons.\n"
             "3. I will send you the files here instantly.\n\n"
-            "📢 Join our @ThiruEmpire channel for latest news!"
+            "📢 Join our @Ls2allAnimes_source_tamil channel for latest news!"
         )
     
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("⬅️ Back", callback_data="start_back")]])
