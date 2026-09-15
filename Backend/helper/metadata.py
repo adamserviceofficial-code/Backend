@@ -11,7 +11,7 @@ from themoviedb import aioTMDb
 
 from Backend.helper.pyro import extract_tmdb_id, normalize_languages
 
-tmdb = aioTMDB(Telegram.TMDB_API, language="en-US", region="US")
+tmdb = aioTMDb(Telegram.TMDB_API, language="en-US", region="US")
 
 async def metadata(filename, message):
 
